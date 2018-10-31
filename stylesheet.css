@@ -26,7 +26,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 220px;
-    background-color: #66AFB2;
+    background-color: #81D5DE;
     border: 1px solid #555;
     font-family: Franklin Gothic Medium;
 }
@@ -48,8 +48,8 @@ li:last-child {
 }
 
 li a:hover:not(.active) {
-    background-color: #000;
-    color: white;
+    background-color: #F1D9F4
+    color: black;
 }
 
 </style>
