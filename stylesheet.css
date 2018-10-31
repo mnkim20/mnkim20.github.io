@@ -26,15 +26,15 @@ ul {
     margin: 0;
     padding: 0;
     width: 220px;
-    background-color: #81D5DE;
+    background-color: #6DC0DE;
     border: 1px solid #555;
     font-family: Franklin Gothic Medium;
 }
 
 li a {
     display: block;
-    color: #F1D9F4;
-    padding: 25px 25px;
+    color: #fff;
+    padding: 20px 15px;
     text-decoration: none;
 }
 
@@ -47,10 +47,16 @@ li:last-child {
     border-bottom: none;
 }
 
+li a.active {
+    background-color: #D192FD;
+    color: white;
+}
+
 li a:hover:not(.active) {
-    background-color: #F1D9F4
+    background-color: #F1D9F4;
     color: black;
 }
+
 
 </style>
 </head>
