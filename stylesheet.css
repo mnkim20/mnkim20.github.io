@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link, a:visited {
+    background-color: #9CD4D6;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: black;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/01/19/48/background-2462431_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+</style>
+</head>
+<body>
+
+<a href="default.asp" target="_blank">This is a link</a>
+
+</body>
+</html>
+
