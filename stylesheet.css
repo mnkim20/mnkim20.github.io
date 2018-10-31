@@ -11,14 +11,14 @@ body {
 }
 
 h1 {
-    font-family: Helvetica
+    font-family: Franklin Gothic Medium;
     color: black;
     text-align: center;
 }
 
 p {
-    font-family: Helvetica;
-    font-size: 30px;
+    font-family: Franklin Gothic Medium;
+    font-size: 27px;
 }
 
 </style>
