@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/01/19/48/background-2462431_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+h1 {
+    font-family: Franklin Gothic Medium;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: Franklin Gothic Medium;
+    font-size: 27px;
+}
+
+
+</style>
+</head>
+</html>
