@@ -24,7 +24,7 @@ function windowResized() {
   else {
   fill(random(300),random(700),random(200)); 
   }
-  }
+  {
   rect(mouseX, mouseY, 80, 80);
   //ellipse(mouseX, mouseY, 80, 80);
   }
