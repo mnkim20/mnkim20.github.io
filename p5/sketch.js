@@ -1,7 +1,6 @@
-
 function setup() {
   createCanvas(700, 400);
-  centerCanvas();
+ 
   background(238, 196, 255);
   }
 
@@ -10,6 +9,7 @@ function windowResized() {
   }
   
 function draw() {
+	 
   if (mouseIsPressed) {
   fill(104, 0, 145);
   } else {
