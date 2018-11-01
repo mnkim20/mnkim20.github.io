@@ -9,22 +9,22 @@ function centerCanvas() {
 function setup() {
   cnv = createCanvas(1000, 400);
   centerCanvas();
-  background(240, 208, 255);
+  background(50, 200, 230);
 }
 
 function windowResized() {
   centerCanvas();
 }
 
-  function draw() {
-  if (mouseX !== pmouseX || mouseY !== pmouseY) {  
-  if (mouseIsPressed) {
-  fill(89, 9, 126);
-  } 
-  else {
-  fill(random(300),random(700),random(200)); 
+function draw() {
+  if (mouseX !== pmouseX || mouseY !== pmouseY) {
+    if (mouseIsPressed) {
+      fill(0,255,0);
+    }
+    else {
+      fill(random(250),random(200),random(100));
+    }
   }
-  {
   rect(mouseX, mouseY, 80, 80);
   //ellipse(mouseX, mouseY, 80, 80);
-  }
+}
